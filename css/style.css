@@ -1,0 +1,270 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* All Common Css End */
+/* header part start */
+#navbarSupportedContent{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+.btn-outline-success{
+    background: #8454F5;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* header part end */
+/* Banner Part Star */
+
+#bannerpart{
+    background: url(../images/frame.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+.bannerimg{
+    padding: 0px 20px;
+}
+.bannertext{
+    margin: -197px -11px;
+}
+.bannertext h1{
+    font-size: 64px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 367px;
+
+}
+.bannertext p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 415px;
+}
+.bannertext a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    background: #8454F5;
+    color: #F8FDFE;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Banner Part End */
+/* service part start */
+#servicepart{
+padding-top: 240px ;
+text-align: center;
+}
+.servicetxt h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 30px;
+}
+.serviceitem{
+    padding: 0 53px;
+    margin: 20px;
+}
+.serviceitem h3{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.serviceitem p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.serviceitem a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+    color:black ;
+}
+.serviceitem:hover{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* service part end */
+#innovatepart{
+    padding: 150px;
+}
+.innovateitem{
+
+}
+/* .innoimg{
+    height: 644px;
+    width: 540px;
+    padding-top:150px ;
+}
+.innovatetext{
+    padding-top: 165px;
+    padding-left:330px ;
+    margin: 10px;
+}
+.innovatetext h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    padding: 0 177px;  
+}
+.innovatetext p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+    padding: 0 316px;  
+}
+.innovateitem{
+    margin: 27px 5px;
+    padding: 0 8px;
+}
+.innovatenum{
+    padding: 0 10px;
+} */
+ /* apps part start */
+ #appspart{
+padding: px;
+margin-left: 5px;
+ }
+ .appstitle h3{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;   
+ }
+ .appstitle p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;   
+}
+.appsitem{
+
+
+ }
+ /* apps part end */
+ /* top part start */
+ #toppart{
+    background:#FFFFFF;
+ }
+ .toptxt h3{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 31px;  
+    margin: 6px -158px;
+ }
+ .btn a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    background: #8454F5;
+    padding: 20px;
+    border-radius: 10px;
+    color: #F8FDFE;
+
+ }
+ /* top part end */
+ /* free part star */
+ #freepart{
+    padding: 150px;
+ }
+ .freehead h3{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;   
+ }
+ .freehead p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;   
+ }
+ .table{
+   padding: 45px;
+ }
+ .tablehead h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; 
+    color: #29313D; 
+ }
+ .tableleft{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    color: #29313D;
+ }
+ .tableright a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif; 
+    color: #F8FDFE;
+    background: #8454F5;
+    padding: 10px;
+    border-radius: 10px;  
+ }
+ .tableitem{
+    padding: 20px;
+ }
+ /* free part end */
+ /* post part start */
+ #postpart{
+    padding: 150px;
+ }
+ .post{
+    margin-bottom: 50px;
+ }
+ .heading h3{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    color: #29313D; 
+ }
+ .heading h2{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; 
+    color: #29313D; 
+ }
+ /* post part end */
+ /* project part start */
+ #projectpart{
+    padding: 150px;
+ }
+ .text{
+    background: #8454F5;
+    border-radius: 40px;
+    padding: 55px;
+ }
+ .protxt h3{
+    font-size: 56px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    color: #F8FDFE;
+ }
+ .protxt a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif; 
+    color:#8454F5; 
+    background:#F8FDFE ;
+    border-radius: 20px;
+    padding: 15px;
+ }
+ /* project part end */
